@@ -9,19 +9,17 @@ public class AngleToPlayer : MonoBehaviour
     private Transform player;
     private Vector3 targetPos;
     private Vector3 targetDir;
-    
-    
-    //Temporary 
-    //public SpriteRenderer spriteRenderer;
-    //public Sprite[] sprites; 
 
-    public float angle;
+    private SpriteRenderer spriteRenderer;
+
+    private float angle;
     public int lastIndex; 
 
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<PlayerMove>().transform;
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     // Update is called once per frame
