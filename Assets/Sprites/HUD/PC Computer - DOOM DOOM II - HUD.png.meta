@@ -1,0 +1,2750 @@
+fileFormatVersion: 2
+guid: 17f0982501e1b9744a05e8d432a9bcaa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 320
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ea2071ffd887a4abbb9d939b0ca930
+      internalID: 787653603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 255
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ac83151bcea704b904a1fd86311362
+      internalID: 1891618380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 271
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caf1fba42af1e54abe156a717a8a69f
+      internalID: 760102559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 271
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86465b45ffd1c444ad14f724fa8635b
+      internalID: 1905983654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 271
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca9507957726bb4e86c7febc59bcfea
+      internalID: -1015266577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 263
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c1f9dd98cdfe84c98dcc270c61fb94
+      internalID: -34928839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 271
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91c6ca47da0c6d4299878471779c7eb
+      internalID: -925319482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 271
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243a535bff487f046b68075e2d0300e7
+      internalID: 1504624697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 271
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdd525e79d857241a905b47a2ef2694
+      internalID: -1498119048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 271
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398c6b601f8cc884d801edfa9ed7aa77
+      internalID: -1718258802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 271
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3498efcdf5590af469a160b95a02596d
+      internalID: -572536877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 271
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8291edd2da8d69c4990dea42b32a4bae
+      internalID: 1688605219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 271
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e42404b78a781743b31cfb6f97fb5ad
+      internalID: -1474950106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e861f8152fd62ac4da1fcf3d5bcc32bd
+      internalID: -1315408464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e29f88504d418a4997bbbccbf200d50
+      internalID: 569386399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc230f034db317d42babff39ed4621a1
+      internalID: -269874100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53210d6d9007f7446baaf561d88891d6
+      internalID: -1943016933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89abad01b00a8c549b194de28a278230
+      internalID: -35665666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f833ed9b91c4e6845bb667bc5bb4f5d7
+      internalID: 847512654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7f0bb0090666c48a97107840e0ac89
+      internalID: 34393988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273a173e7c0ef944ba6c73eea9a2449b
+      internalID: 1409991680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a28f924b365db4590f29e0dac76a03
+      internalID: 1305650521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c457117fb47e0fa45bf79ffe0dd59669
+      internalID: 1764163798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_23
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 276
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945251e8bdbce794b937e5fc61f87679
+      internalID: -1439542081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 252
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77534314d00eab44912a3f6e162e3c7
+      internalID: -1112152798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 268
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5852bd7ef72744d409eb22986b5fc203
+      internalID: -591372152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 268
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc6fceafad0b394184bd2b20c8768b0
+      internalID: -1579894698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 267
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fc5b7a5a7055a4ca35a03ec41fc2b3
+      internalID: 861991380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_28
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 252
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e2f6a6334505746a4af251c4c3ad81
+      internalID: -1342584410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_29
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 268
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ac2e493ab54b04d99e2d98904fef73
+      internalID: 1498923425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 268
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310c7d9057159a545bd9aabb55099216
+      internalID: 216742198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 268
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d6cf908af0a7445abd470f01bf89a3
+      internalID: 1224080115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 260
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d50aef47e3ee74cafcd89da00a7c28
+      internalID: 1291457868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_33
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 268
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed75729e82df1de4abf7a22d2fa56a9f
+      internalID: 1546550734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_34
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 268
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3f764813979464097cb82343f9c5a7
+      internalID: 937576715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_35
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 260
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182dc43158ba16d40865d25444add789
+      internalID: 166654988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 268
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0059b16e3e12b479e7bfcc51eda0f8
+      internalID: 1170982951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_37
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 260
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f07ede0ea249b949af0a9980ee6f13f
+      internalID: 1714234755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_38
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 260
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d65357a6f59b4f4a958ab7c0dc5e270
+      internalID: 1547976893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_39
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66e1c0352cb69f42aee7e3b330751a1
+      internalID: -1315037950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_40
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 263
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c834186816c67740ae4a962a62f2e5a
+      internalID: -1680080698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_41
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb63b60cfa39174e8f3a963f1cb40f4
+      internalID: 795439367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_42
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 263
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8e4ac68582e8d4db13c0e7c8928c34
+      internalID: -1038908774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 263
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7837a7501c00f46910353d601494f8
+      internalID: -1373266783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_44
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67fdd5136cec9b4e891e5e580fca8dd
+      internalID: 1327238831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_45
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 263
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f1d3c3c591ed842b5d11e11a6a512a
+      internalID: 1148714518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_46
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08481963e76e7124aab8f145b6fcaec4
+      internalID: -487877449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_47
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 263
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a3deaa8dcd13e41a9b662a1776cd95
+      internalID: -415036593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_48
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe48a68ed7bedc4b997d63452a0b438
+      internalID: -1434762152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_49
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 263
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3e4f424ff76454997883cc4bc96fab
+      internalID: 1274869945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_50
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31716d46e37d4604a8156a28095191b6
+      internalID: 886008995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_51
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71e5ac6a5f140d4b9987f0bdc185426
+      internalID: 623531967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_52
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 263
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6ac0d10c0789047b8b487d65bb4ade
+      internalID: 1765608877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ccf3b124876884eac43ebbdb189eb2
+      internalID: 1888164828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_54
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 263
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2216cf0af495f645a94efc9b1c249bf
+      internalID: -1788532428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_55
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 255
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854c07a0fa23ce941bcaf81586a76695
+      internalID: 450793338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_56
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 263
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6f4da4b2a8a644ea4fca7bb69fe545
+      internalID: 993827475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_57
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdeccd242256254b8e6924fe48705a8
+      internalID: 1019505893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_58
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25aaf544d340b7946a10acaa373ec9d6
+      internalID: 265926234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966ee3d61382f28458b66c44cc843e3c
+      internalID: 1395805329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_60
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 255
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b09b7891f7b284ba9277980623937f
+      internalID: 251945325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_61
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245de0e00621a4a4782a81ac09348aef
+      internalID: 2018914017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_62
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b28ecb42a923754bb34c6876dcbdd34
+      internalID: 981201699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_63
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3867700d6dda2264cba5c80370244380
+      internalID: -1150059894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_64
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 254
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a15a6aa709dca4393770129e60be15
+      internalID: -111483302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_65
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 255
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d934ebba029ad9d4bbffb386cb0cd662
+      internalID: 938765338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_66
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 255
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeddb4192b7f12a47960a36eeb74d558
+      internalID: 1367076057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_67
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 254
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d027a527e6c9e4c94ae5ff6c01fcfd
+      internalID: 858435756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_68
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 254
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6812cd46a3270f4faffe2aea692e78d
+      internalID: -907250890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 254
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810db76a1822348478b62ef17676369e
+      internalID: -330090851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15de59d681d152e4c9d9748a2dd6a515
+      internalID: -857035925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_71
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 218
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbff3501ed5ee534d8211c6755e2ec64
+      internalID: 928831662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_72
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 218
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933643b88f4db1d49a551a395e069b78
+      internalID: 579620213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_73
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 218
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6167268927b99540b5acd73398e56e1
+      internalID: -2060562720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_74
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 246
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096135aa38485644fbd5afeec509be78
+      internalID: 653713332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_75
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 246
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719d5e183ef9cf2479cdbe7a7d5f9751
+      internalID: 1784052324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_76
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 246
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba88b48949e6a8e41bcbcc429ca84196
+      internalID: -189306305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_77
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 246
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d22ea1f43c55264ea6d7d76dc2b08e4
+      internalID: -123017199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_78
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 246
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8a553cc135d5a49b3091251844b94b
+      internalID: -77126243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_79
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 246
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac1e837f34a7434d994b1cfd626f5e5
+      internalID: -1583111333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_80
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 246
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106532af644c5a34fbcf7626daba88e6
+      internalID: -2067602147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 249
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad318aa0bfe7a51408a34705572b541f
+      internalID: 1289073188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_82
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 249
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9bec1201d1a9642983e9ad3a0cde4e
+      internalID: -381283787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_83
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 246
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d811a633b61af6541987f90f70cf89ef
+      internalID: 1047036488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_84
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 246
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98832ad10fbdc6742bda8d08a39c8144
+      internalID: 514135533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_85
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 246
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551b8b7afc439a94d84cda9738fa1cd3
+      internalID: 2025619596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_86
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 246
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672f31bfab773574ea1e2f615453d9c2
+      internalID: -691874217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_87
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 248
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cbe43e2c4ed1847ae5d8403cd97925
+      internalID: 743966641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_88
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 248
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac5ae79140a5154fa19f696d02cf6af
+      internalID: 2076913849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_89
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 246
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da13853049014af479e6b75236b14d74
+      internalID: 1864344373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_90
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 246
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a54e4dbdcb867478ce7f2285bb738f
+      internalID: -809749376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_91
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 249
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bf0f323bc4dcd4581ecb153e331512
+      internalID: 170305912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_92
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 246
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afd00d815dc42b429a4c92fa18edc2f
+      internalID: 615939804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_93
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 245
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f11299b89bc97445944acb92024f33e
+      internalID: -51358469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_94
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 246
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0943bd373af13440a8a8811f04c4673
+      internalID: -1137509294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_95
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037402bb12b63f24b8c31e3cd7a9234f
+      internalID: -1132462237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_96
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89994d1fe74c3e4ebed92f91b289392
+      internalID: -1574496137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_97
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51a56bd5a65b8d439b2c30c857e939d
+      internalID: -763303520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_98
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0506627a8c34ea149946b86831ca005b
+      internalID: -1203373186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_99
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 238
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4309c9da68606f14688ff88047e97ec7
+      internalID: 452686200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_100
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 240
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9959df0ffe0624a9112b47b71e4b44
+      internalID: -899244451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_101
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 238
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00b47632642b2e41bfa04ef02bca147
+      internalID: -1856315843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_102
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 237
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaba4f8d5b7233428044c3498e231b3
+      internalID: -644433868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_103
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 238
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6634f68f324bfc44b8fd4a5af5d211c3
+      internalID: -1002087323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_104
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 238
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a281d20aa71379c469550115e78eadcb
+      internalID: -1266288024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_129
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 122
+        width: 126
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bb1a35ec52ac3469e69f557af30987
+      internalID: 914813422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fafbe223431d94faa997dce0b5a04e
+      internalID: -381128766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_144
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 125
+        width: 123
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797b3f5d871d45e44ab3a84aec2b18d4
+      internalID: -285592903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_157
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 160
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e6e30dfaab04540b93c3bff300a459
+      internalID: -1349590303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_159
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 152
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e9ae7532b3ec24e98d61cd0aa7b21e
+      internalID: 849046491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 153
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce52be9276134de478d427d280a53580
+      internalID: 446758640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_162
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 62
+        width: 130
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fb32e80f647984881b33c526770b1f
+      internalID: 1919618412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_170
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 43
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a8d5b64af12ec4bb72ea27278d06c2
+      internalID: -1081835092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_171
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 43
+        width: 33
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9040c9ea26411a4887f74f1fdabe56e
+      internalID: 1045411030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - HUD_172
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 43
+        width: 39
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972c27e202e812546b294edd1a95e7d7
+      internalID: 1344367530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 262794f270c6fb34594b501abf5d1bbc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - DOOM DOOM II - HUD_0: 787653603
+      PC Computer - DOOM DOOM II - HUD_1: 1891618380
+      PC Computer - DOOM DOOM II - HUD_10: -572536877
+      PC Computer - DOOM DOOM II - HUD_100: -899244451
+      PC Computer - DOOM DOOM II - HUD_101: -1856315843
+      PC Computer - DOOM DOOM II - HUD_102: -644433868
+      PC Computer - DOOM DOOM II - HUD_103: -1002087323
+      PC Computer - DOOM DOOM II - HUD_104: -1266288024
+      PC Computer - DOOM DOOM II - HUD_105: -1630886398
+      PC Computer - DOOM DOOM II - HUD_106: 523997769
+      PC Computer - DOOM DOOM II - HUD_107: -579385212
+      PC Computer - DOOM DOOM II - HUD_108: 1640313256
+      PC Computer - DOOM DOOM II - HUD_109: -559289809
+      PC Computer - DOOM DOOM II - HUD_11: 1688605219
+      PC Computer - DOOM DOOM II - HUD_110: -2070011085
+      PC Computer - DOOM DOOM II - HUD_111: -355351298
+      PC Computer - DOOM DOOM II - HUD_112: -1028768687
+      PC Computer - DOOM DOOM II - HUD_113: 954218335
+      PC Computer - DOOM DOOM II - HUD_114: 1997337660
+      PC Computer - DOOM DOOM II - HUD_115: -1261398225
+      PC Computer - DOOM DOOM II - HUD_116: 1971733948
+      PC Computer - DOOM DOOM II - HUD_117: -1494480847
+      PC Computer - DOOM DOOM II - HUD_118: -1522354833
+      PC Computer - DOOM DOOM II - HUD_119: 1736600118
+      PC Computer - DOOM DOOM II - HUD_12: -1474950106
+      PC Computer - DOOM DOOM II - HUD_120: -1679112772
+      PC Computer - DOOM DOOM II - HUD_121: 1874099299
+      PC Computer - DOOM DOOM II - HUD_122: 1101313048
+      PC Computer - DOOM DOOM II - HUD_123: 240114015
+      PC Computer - DOOM DOOM II - HUD_124: -852558572
+      PC Computer - DOOM DOOM II - HUD_125: 946979664
+      PC Computer - DOOM DOOM II - HUD_126: 1385366595
+      PC Computer - DOOM DOOM II - HUD_127: 991421606
+      PC Computer - DOOM DOOM II - HUD_128: -1942088042
+      PC Computer - DOOM DOOM II - HUD_129: 914813422
+      PC Computer - DOOM DOOM II - HUD_13: -1315408464
+      PC Computer - DOOM DOOM II - HUD_130: -131362423
+      PC Computer - DOOM DOOM II - HUD_131: -1835578700
+      PC Computer - DOOM DOOM II - HUD_132: 902572928
+      PC Computer - DOOM DOOM II - HUD_133: -123543046
+      PC Computer - DOOM DOOM II - HUD_134: -1971934344
+      PC Computer - DOOM DOOM II - HUD_135: -82430666
+      PC Computer - DOOM DOOM II - HUD_136: -36138523
+      PC Computer - DOOM DOOM II - HUD_137: 1379221270
+      PC Computer - DOOM DOOM II - HUD_138: 1245579483
+      PC Computer - DOOM DOOM II - HUD_139: 698711695
+      PC Computer - DOOM DOOM II - HUD_14: 569386399
+      PC Computer - DOOM DOOM II - HUD_140: 2087352124
+      PC Computer - DOOM DOOM II - HUD_141: 309495240
+      PC Computer - DOOM DOOM II - HUD_142: -2125133762
+      PC Computer - DOOM DOOM II - HUD_143: -381128766
+      PC Computer - DOOM DOOM II - HUD_144: -285592903
+      PC Computer - DOOM DOOM II - HUD_145: 1810034014
+      PC Computer - DOOM DOOM II - HUD_146: -249783326
+      PC Computer - DOOM DOOM II - HUD_147: -2043626323
+      PC Computer - DOOM DOOM II - HUD_148: 553389313
+      PC Computer - DOOM DOOM II - HUD_149: 523305839
+      PC Computer - DOOM DOOM II - HUD_15: -269874100
+      PC Computer - DOOM DOOM II - HUD_150: 1456140681
+      PC Computer - DOOM DOOM II - HUD_151: 645911288
+      PC Computer - DOOM DOOM II - HUD_152: 347577521
+      PC Computer - DOOM DOOM II - HUD_153: -191290970
+      PC Computer - DOOM DOOM II - HUD_154: 1926313910
+      PC Computer - DOOM DOOM II - HUD_155: 1512837458
+      PC Computer - DOOM DOOM II - HUD_156: 1961558872
+      PC Computer - DOOM DOOM II - HUD_157: -1349590303
+      PC Computer - DOOM DOOM II - HUD_158: 1733344527
+      PC Computer - DOOM DOOM II - HUD_159: 849046491
+      PC Computer - DOOM DOOM II - HUD_16: -1943016933
+      PC Computer - DOOM DOOM II - HUD_160: -15734894
+      PC Computer - DOOM DOOM II - HUD_161: 446758640
+      PC Computer - DOOM DOOM II - HUD_162: 1919618412
+      PC Computer - DOOM DOOM II - HUD_163: 1752685812
+      PC Computer - DOOM DOOM II - HUD_164: -1876446433
+      PC Computer - DOOM DOOM II - HUD_165: 931828275
+      PC Computer - DOOM DOOM II - HUD_166: 1049833973
+      PC Computer - DOOM DOOM II - HUD_167: 27673931
+      PC Computer - DOOM DOOM II - HUD_168: -435194718
+      PC Computer - DOOM DOOM II - HUD_169: -1006135793
+      PC Computer - DOOM DOOM II - HUD_17: -35665666
+      PC Computer - DOOM DOOM II - HUD_170: -1081835092
+      PC Computer - DOOM DOOM II - HUD_171: 1045411030
+      PC Computer - DOOM DOOM II - HUD_172: 1344367530
+      PC Computer - DOOM DOOM II - HUD_173: -575815724
+      PC Computer - DOOM DOOM II - HUD_174: 199330493
+      PC Computer - DOOM DOOM II - HUD_175: 1371542382
+      PC Computer - DOOM DOOM II - HUD_176: -1231622294
+      PC Computer - DOOM DOOM II - HUD_177: 16063609
+      PC Computer - DOOM DOOM II - HUD_178: 231705493
+      PC Computer - DOOM DOOM II - HUD_179: -264029363
+      PC Computer - DOOM DOOM II - HUD_18: 847512654
+      PC Computer - DOOM DOOM II - HUD_180: -879623195
+      PC Computer - DOOM DOOM II - HUD_181: 1621676550
+      PC Computer - DOOM DOOM II - HUD_182: 1392518485
+      PC Computer - DOOM DOOM II - HUD_183: 1392345055
+      PC Computer - DOOM DOOM II - HUD_184: -1414695836
+      PC Computer - DOOM DOOM II - HUD_185: -165841615
+      PC Computer - DOOM DOOM II - HUD_186: 1673355167
+      PC Computer - DOOM DOOM II - HUD_187: -1294256260
+      PC Computer - DOOM DOOM II - HUD_188: -1559441730
+      PC Computer - DOOM DOOM II - HUD_189: -1925595963
+      PC Computer - DOOM DOOM II - HUD_19: 34393988
+      PC Computer - DOOM DOOM II - HUD_190: 1432961272
+      PC Computer - DOOM DOOM II - HUD_191: 1550535685
+      PC Computer - DOOM DOOM II - HUD_192: 1211143776
+      PC Computer - DOOM DOOM II - HUD_193: 1005136770
+      PC Computer - DOOM DOOM II - HUD_194: 1363295001
+      PC Computer - DOOM DOOM II - HUD_2: 760102559
+      PC Computer - DOOM DOOM II - HUD_20: 1409991680
+      PC Computer - DOOM DOOM II - HUD_21: 1305650521
+      PC Computer - DOOM DOOM II - HUD_22: 1764163798
+      PC Computer - DOOM DOOM II - HUD_23: -1439542081
+      PC Computer - DOOM DOOM II - HUD_24: -1112152798
+      PC Computer - DOOM DOOM II - HUD_25: -591372152
+      PC Computer - DOOM DOOM II - HUD_26: -1579894698
+      PC Computer - DOOM DOOM II - HUD_27: 861991380
+      PC Computer - DOOM DOOM II - HUD_28: -1342584410
+      PC Computer - DOOM DOOM II - HUD_29: 1498923425
+      PC Computer - DOOM DOOM II - HUD_3: 1905983654
+      PC Computer - DOOM DOOM II - HUD_30: 216742198
+      PC Computer - DOOM DOOM II - HUD_31: 1224080115
+      PC Computer - DOOM DOOM II - HUD_32: 1291457868
+      PC Computer - DOOM DOOM II - HUD_33: 1546550734
+      PC Computer - DOOM DOOM II - HUD_34: 937576715
+      PC Computer - DOOM DOOM II - HUD_35: 166654988
+      PC Computer - DOOM DOOM II - HUD_36: 1170982951
+      PC Computer - DOOM DOOM II - HUD_37: 1714234755
+      PC Computer - DOOM DOOM II - HUD_38: 1547976893
+      PC Computer - DOOM DOOM II - HUD_39: -1315037950
+      PC Computer - DOOM DOOM II - HUD_4: -1015266577
+      PC Computer - DOOM DOOM II - HUD_40: -1680080698
+      PC Computer - DOOM DOOM II - HUD_41: 795439367
+      PC Computer - DOOM DOOM II - HUD_42: -1038908774
+      PC Computer - DOOM DOOM II - HUD_43: -1373266783
+      PC Computer - DOOM DOOM II - HUD_44: 1327238831
+      PC Computer - DOOM DOOM II - HUD_45: 1148714518
+      PC Computer - DOOM DOOM II - HUD_46: -487877449
+      PC Computer - DOOM DOOM II - HUD_47: -415036593
+      PC Computer - DOOM DOOM II - HUD_48: -1434762152
+      PC Computer - DOOM DOOM II - HUD_49: 1274869945
+      PC Computer - DOOM DOOM II - HUD_5: -34928839
+      PC Computer - DOOM DOOM II - HUD_50: 886008995
+      PC Computer - DOOM DOOM II - HUD_51: 623531967
+      PC Computer - DOOM DOOM II - HUD_52: 1765608877
+      PC Computer - DOOM DOOM II - HUD_53: 1888164828
+      PC Computer - DOOM DOOM II - HUD_54: -1788532428
+      PC Computer - DOOM DOOM II - HUD_55: 450793338
+      PC Computer - DOOM DOOM II - HUD_56: 993827475
+      PC Computer - DOOM DOOM II - HUD_57: 1019505893
+      PC Computer - DOOM DOOM II - HUD_58: 265926234
+      PC Computer - DOOM DOOM II - HUD_59: 1395805329
+      PC Computer - DOOM DOOM II - HUD_6: -925319482
+      PC Computer - DOOM DOOM II - HUD_60: 251945325
+      PC Computer - DOOM DOOM II - HUD_61: 2018914017
+      PC Computer - DOOM DOOM II - HUD_62: 981201699
+      PC Computer - DOOM DOOM II - HUD_63: -1150059894
+      PC Computer - DOOM DOOM II - HUD_64: -111483302
+      PC Computer - DOOM DOOM II - HUD_65: 938765338
+      PC Computer - DOOM DOOM II - HUD_66: 1367076057
+      PC Computer - DOOM DOOM II - HUD_67: 858435756
+      PC Computer - DOOM DOOM II - HUD_68: -907250890
+      PC Computer - DOOM DOOM II - HUD_69: -330090851
+      PC Computer - DOOM DOOM II - HUD_7: 1504624697
+      PC Computer - DOOM DOOM II - HUD_70: -857035925
+      PC Computer - DOOM DOOM II - HUD_71: 928831662
+      PC Computer - DOOM DOOM II - HUD_72: 579620213
+      PC Computer - DOOM DOOM II - HUD_73: -2060562720
+      PC Computer - DOOM DOOM II - HUD_74: 653713332
+      PC Computer - DOOM DOOM II - HUD_75: 1784052324
+      PC Computer - DOOM DOOM II - HUD_76: -189306305
+      PC Computer - DOOM DOOM II - HUD_77: -123017199
+      PC Computer - DOOM DOOM II - HUD_78: -77126243
+      PC Computer - DOOM DOOM II - HUD_79: -1583111333
+      PC Computer - DOOM DOOM II - HUD_8: -1498119048
+      PC Computer - DOOM DOOM II - HUD_80: -2067602147
+      PC Computer - DOOM DOOM II - HUD_81: 1289073188
+      PC Computer - DOOM DOOM II - HUD_82: -381283787
+      PC Computer - DOOM DOOM II - HUD_83: 1047036488
+      PC Computer - DOOM DOOM II - HUD_84: 514135533
+      PC Computer - DOOM DOOM II - HUD_85: 2025619596
+      PC Computer - DOOM DOOM II - HUD_86: -691874217
+      PC Computer - DOOM DOOM II - HUD_87: 743966641
+      PC Computer - DOOM DOOM II - HUD_88: 2076913849
+      PC Computer - DOOM DOOM II - HUD_89: 1864344373
+      PC Computer - DOOM DOOM II - HUD_9: -1718258802
+      PC Computer - DOOM DOOM II - HUD_90: -809749376
+      PC Computer - DOOM DOOM II - HUD_91: 170305912
+      PC Computer - DOOM DOOM II - HUD_92: 615939804
+      PC Computer - DOOM DOOM II - HUD_93: -51358469
+      PC Computer - DOOM DOOM II - HUD_94: -1137509294
+      PC Computer - DOOM DOOM II - HUD_95: -1132462237
+      PC Computer - DOOM DOOM II - HUD_96: -1574496137
+      PC Computer - DOOM DOOM II - HUD_97: -763303520
+      PC Computer - DOOM DOOM II - HUD_98: -1203373186
+      PC Computer - DOOM DOOM II - HUD_99: 452686200
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

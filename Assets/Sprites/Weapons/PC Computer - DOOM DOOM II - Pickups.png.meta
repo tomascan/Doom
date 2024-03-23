@@ -1,0 +1,1732 @@
+fileFormatVersion: 2
+guid: f0f746d8a8348b84ba439e2d5a6a067a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 190
+        width: 62
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12da3765beccf964aaede667104c52eb
+      internalID: -128150699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 63
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9de88ea04f9df3478197454c7216c0b
+      internalID: 826852870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 200
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ddda823f4278a47a32aa3042cac259
+      internalID: -516566372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 198
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc6a7560ddbc29459944ba52b561c97
+      internalID: 1362468760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_11
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 198
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f01f8e51398af47b071176089d0cb5
+      internalID: -852921629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 198
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081df767713bbf144a29f344ed45a444
+      internalID: -1885900515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_13
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 178
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3e60a8a308f3d468b127689804d43b
+      internalID: -1297282436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 152
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939eb2750b1e0d042b57931ad455f8b1
+      internalID: -2105589174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_19
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 147
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0451252c1f99654b87520d5317294fb
+      internalID: 1089453702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 151
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2257428b99edce845b74f88305f69ebd
+      internalID: 1464659482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 136
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408aa2e19269d5547baad812e555eaa3
+      internalID: 146455464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 142
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcb0ccc6a1f7a947af4262071d4caca
+      internalID: 1143289860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_23
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 151
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa7bcd5efe617e43a7e04178d6e5770
+      internalID: 1883511696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_24
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 142
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688028ea6cbae4c42b29d66e3d69c716
+      internalID: 1059594945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 134
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d51909257c5314cbb9de9cb896ed12
+      internalID: 1794352917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27827a3c32483aa45abc22904441385d
+      internalID: 1049693812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 101
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918625e66e954384f92e77f5ea65efe8
+      internalID: 154370902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_36
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 101
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5961bd5834188fd44ae4885b7328618c
+      internalID: 1880831745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 101
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ee7aaeb1d36e847b9d194a2c3e5eca
+      internalID: 151633975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 104
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cdbea20c9fcfb47b219f48a3d8bc27
+      internalID: -690186165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_39
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 104
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f35b2466bf592a48b8271791e1dbcae
+      internalID: 1605484023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_40
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 104
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3aaf28cfc70ac408f4c356c7d50f22
+      internalID: -2071445979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ab212ad98c44a47a010657d49d0902
+      internalID: -972992151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_42
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 104
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42111aac88a384c4889ab0d687b72b84
+      internalID: -807248980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 104
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e59e4389205e494a99633519ab3952f
+      internalID: -1528423655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_44
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 104
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7800f9e4cd9a2794c88088ccd990415e
+      internalID: 1901409270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_45
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 100
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cfd25e499f0464393b7e09e4268cc4
+      internalID: 366629950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_46
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 100
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da091e2dc2123fd4e9ccb3a5d763783e
+      internalID: -2083426098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_47
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 100
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251fce195a96c164986194102b4cfbb1
+      internalID: -1502933392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_48
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 102
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef005736d75cae4984ef6474624d952
+      internalID: 753301329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_49
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 102
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffcd3969c130d449aa1030b1f45d490
+      internalID: 1415135948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_50
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 102
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0ac0c7afd41824d9e50f2f7ed3391f
+      internalID: -635889306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_51
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 102
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbf079cad14b4e43b7e2df73963861e
+      internalID: -1231230179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_52
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6fa60c85a0f5842af0695b20f8bb1f
+      internalID: 429834962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_53
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4ad3147fae6db4d96ea29cbd58c3fc
+      internalID: 161261103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_54
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099b53c25edddb04da0b1782329279ec
+      internalID: 1935744335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_55
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365d1d55e90fda14796b1ff73b117789
+      internalID: -1997937511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_56
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f9938707f8c304a8dea2e75c64f623
+      internalID: -979946546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_57
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d734ec6e1ff3c094ca90d713226c8739
+      internalID: 194123894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_58
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc810f247615d8d44a59e09c8399249f
+      internalID: 442266023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_59
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e70fded858a434cba258ff8293e20e
+      internalID: -128573293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_67
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf66b89b97ac1c429b080a2d126e49c
+      internalID: 1489718330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_68
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f07be1655dd54842a8c3a0ccea6f7ad
+      internalID: -482227310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_69
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfae1067f1587e40a216b18a9e4022d
+      internalID: 1553706202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_70
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46deba8ef22d9d3439c591e5ab3422d4
+      internalID: -526652090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_71
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec52be631d6829e47be5c16b747258e2
+      internalID: -1443271525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_72
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa68ef5b0b5218c40b0398b71704e785
+      internalID: 2114128611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_73
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4dd97caf76d1642bcd5645a5a211ad
+      internalID: 4781790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_74
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9a4b6bb0cae8e47a098be7fbc14dcd
+      internalID: 983024749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_75
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4414f23049ae6f498a6639f220f7aff
+      internalID: 331397172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_76
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 66
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4456cc4a29bba1b43a0f68ed7b87f197
+      internalID: 1092159902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_77
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 66
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94af0d546a7d9641b4d101258d3ef45
+      internalID: 1249177901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_78
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 52
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a12d8d29cf6ae42a176968355aa075
+      internalID: -510931220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_79
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 52
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d13fc3bc4c0d9c4ea8cfa9b8367a1fd
+      internalID: -997788697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_80
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 52
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0924b246c448a984599f1cbf85f5d489
+      internalID: 2112603261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_81
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 52
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2390d242fd2a3418f5242c8a3baf1d
+      internalID: 2038169292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_82
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 60
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8292f71ac02309147aac5511437a044e
+      internalID: -1400836157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_83
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 60
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84d776f727ffb24297d08206436390f
+      internalID: 1603252943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_84
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 60
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f841b3599f4449488e48b81fd0a557f
+      internalID: 1022015426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_89
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e91e90276e3d4479029778d51e3a43
+      internalID: 424206692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bcf75cedf8c4347a2519fb8becca4b
+      internalID: 66272532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_91
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3908b21d997adc240a75d1221bfb931a
+      internalID: 1627109135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_92
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4e218163d97f24684fef1a24136520
+      internalID: -93787908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_93
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9ed5bb80455744f84d7200ed8fcbea
+      internalID: 1561994077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_94
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7fbe5407b64ea4f83f4d03d494c9db
+      internalID: -1019452424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_95
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535e7325a050ba048bbe6ddcf2e4729b
+      internalID: 1993109684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_96
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05623c31d7588e94787a319818fa2e40
+      internalID: 1706681527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_97
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a265e4995dd7dd349b3b7872500030ed
+      internalID: 1630983695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_98
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930bb62ec2c0a2a44b69e38a455eb298
+      internalID: 1481636441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_99
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0209837cbf882428217864727b9e4d
+      internalID: -943234250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - DOOM DOOM II - Pickups_100
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8851fb836bede634bb775044ce17ba25
+      internalID: 971639605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 15ba5edb544540745a16f0c5f46af5d2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - DOOM DOOM II - Pickups_0: 1368161724
+      PC Computer - DOOM DOOM II - Pickups_1: -1265256576
+      PC Computer - DOOM DOOM II - Pickups_10: 1362468760
+      PC Computer - DOOM DOOM II - Pickups_100: 971639605
+      PC Computer - DOOM DOOM II - Pickups_11: -852921629
+      PC Computer - DOOM DOOM II - Pickups_12: -1885900515
+      PC Computer - DOOM DOOM II - Pickups_13: -1297282436
+      PC Computer - DOOM DOOM II - Pickups_14: 1804248589
+      PC Computer - DOOM DOOM II - Pickups_15: 798825916
+      PC Computer - DOOM DOOM II - Pickups_16: -652843485
+      PC Computer - DOOM DOOM II - Pickups_17: -1557284556
+      PC Computer - DOOM DOOM II - Pickups_18: -2105589174
+      PC Computer - DOOM DOOM II - Pickups_19: 1089453702
+      PC Computer - DOOM DOOM II - Pickups_2: 79496250
+      PC Computer - DOOM DOOM II - Pickups_20: 1464659482
+      PC Computer - DOOM DOOM II - Pickups_21: 146455464
+      PC Computer - DOOM DOOM II - Pickups_22: 1143289860
+      PC Computer - DOOM DOOM II - Pickups_23: 1883511696
+      PC Computer - DOOM DOOM II - Pickups_24: 1059594945
+      PC Computer - DOOM DOOM II - Pickups_25: 1794352917
+      PC Computer - DOOM DOOM II - Pickups_26: -1727729659
+      PC Computer - DOOM DOOM II - Pickups_27: -1343698277
+      PC Computer - DOOM DOOM II - Pickups_28: 824013124
+      PC Computer - DOOM DOOM II - Pickups_29: 178202467
+      PC Computer - DOOM DOOM II - Pickups_3: -763036523
+      PC Computer - DOOM DOOM II - Pickups_30: -1243351294
+      PC Computer - DOOM DOOM II - Pickups_31: -816439728
+      PC Computer - DOOM DOOM II - Pickups_32: 508384825
+      PC Computer - DOOM DOOM II - Pickups_33: 90415074
+      PC Computer - DOOM DOOM II - Pickups_34: 1049693812
+      PC Computer - DOOM DOOM II - Pickups_35: 154370902
+      PC Computer - DOOM DOOM II - Pickups_36: 1880831745
+      PC Computer - DOOM DOOM II - Pickups_37: 151633975
+      PC Computer - DOOM DOOM II - Pickups_38: -690186165
+      PC Computer - DOOM DOOM II - Pickups_39: 1605484023
+      PC Computer - DOOM DOOM II - Pickups_4: -690127405
+      PC Computer - DOOM DOOM II - Pickups_40: -2071445979
+      PC Computer - DOOM DOOM II - Pickups_41: -972992151
+      PC Computer - DOOM DOOM II - Pickups_42: -807248980
+      PC Computer - DOOM DOOM II - Pickups_43: -1528423655
+      PC Computer - DOOM DOOM II - Pickups_44: 1901409270
+      PC Computer - DOOM DOOM II - Pickups_45: 366629950
+      PC Computer - DOOM DOOM II - Pickups_46: -2083426098
+      PC Computer - DOOM DOOM II - Pickups_47: -1502933392
+      PC Computer - DOOM DOOM II - Pickups_48: 753301329
+      PC Computer - DOOM DOOM II - Pickups_49: 1415135948
+      PC Computer - DOOM DOOM II - Pickups_5: 1153249222
+      PC Computer - DOOM DOOM II - Pickups_50: -635889306
+      PC Computer - DOOM DOOM II - Pickups_51: -1231230179
+      PC Computer - DOOM DOOM II - Pickups_52: 429834962
+      PC Computer - DOOM DOOM II - Pickups_53: 161261103
+      PC Computer - DOOM DOOM II - Pickups_54: 1935744335
+      PC Computer - DOOM DOOM II - Pickups_55: -1997937511
+      PC Computer - DOOM DOOM II - Pickups_56: -979946546
+      PC Computer - DOOM DOOM II - Pickups_57: 194123894
+      PC Computer - DOOM DOOM II - Pickups_58: 442266023
+      PC Computer - DOOM DOOM II - Pickups_59: -128573293
+      PC Computer - DOOM DOOM II - Pickups_6: 1041542116
+      PC Computer - DOOM DOOM II - Pickups_60: -775544975
+      PC Computer - DOOM DOOM II - Pickups_61: -1631373166
+      PC Computer - DOOM DOOM II - Pickups_62: -2135537501
+      PC Computer - DOOM DOOM II - Pickups_63: 81860371
+      PC Computer - DOOM DOOM II - Pickups_64: -1714022944
+      PC Computer - DOOM DOOM II - Pickups_65: 1926116413
+      PC Computer - DOOM DOOM II - Pickups_66: -1484154033
+      PC Computer - DOOM DOOM II - Pickups_67: 1489718330
+      PC Computer - DOOM DOOM II - Pickups_68: -482227310
+      PC Computer - DOOM DOOM II - Pickups_69: 1553706202
+      PC Computer - DOOM DOOM II - Pickups_7: -128150699
+      PC Computer - DOOM DOOM II - Pickups_70: -526652090
+      PC Computer - DOOM DOOM II - Pickups_71: -1443271525
+      PC Computer - DOOM DOOM II - Pickups_72: 2114128611
+      PC Computer - DOOM DOOM II - Pickups_73: 4781790
+      PC Computer - DOOM DOOM II - Pickups_74: 983024749
+      PC Computer - DOOM DOOM II - Pickups_75: 331397172
+      PC Computer - DOOM DOOM II - Pickups_76: 1092159902
+      PC Computer - DOOM DOOM II - Pickups_77: 1249177901
+      PC Computer - DOOM DOOM II - Pickups_78: -510931220
+      PC Computer - DOOM DOOM II - Pickups_79: -997788697
+      PC Computer - DOOM DOOM II - Pickups_8: 826852870
+      PC Computer - DOOM DOOM II - Pickups_80: 2112603261
+      PC Computer - DOOM DOOM II - Pickups_81: 2038169292
+      PC Computer - DOOM DOOM II - Pickups_82: -1400836157
+      PC Computer - DOOM DOOM II - Pickups_83: 1603252943
+      PC Computer - DOOM DOOM II - Pickups_84: 1022015426
+      PC Computer - DOOM DOOM II - Pickups_85: 1208224165
+      PC Computer - DOOM DOOM II - Pickups_86: 1184918281
+      PC Computer - DOOM DOOM II - Pickups_87: 171052673
+      PC Computer - DOOM DOOM II - Pickups_88: -1408790950
+      PC Computer - DOOM DOOM II - Pickups_89: 424206692
+      PC Computer - DOOM DOOM II - Pickups_9: -516566372
+      PC Computer - DOOM DOOM II - Pickups_90: 66272532
+      PC Computer - DOOM DOOM II - Pickups_91: 1627109135
+      PC Computer - DOOM DOOM II - Pickups_92: -93787908
+      PC Computer - DOOM DOOM II - Pickups_93: 1561994077
+      PC Computer - DOOM DOOM II - Pickups_94: -1019452424
+      PC Computer - DOOM DOOM II - Pickups_95: 1993109684
+      PC Computer - DOOM DOOM II - Pickups_96: 1706681527
+      PC Computer - DOOM DOOM II - Pickups_97: 1630983695
+      PC Computer - DOOM DOOM II - Pickups_98: 1481636441
+      PC Computer - DOOM DOOM II - Pickups_99: -943234250
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

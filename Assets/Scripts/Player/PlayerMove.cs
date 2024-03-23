@@ -4,25 +4,29 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float playerSpeed = 10f;
-    public float momentumDamping = 5f;
-    
-    private CharacterController myCC;
-    public  Animator camAnim;
-    private bool isWalking; 
+    public float playerSpeed = 10f;  // Velocidad de caminata normal
+    public float momentumDamping = 5f;  // Frenado gradual
+    public float jumpStrength = 12f;  // Fuerza del salto
+    public float gravityScale = 4f;  // "Pesadez" del jugador al aplicar la gravedad
+    private float verticalVelocity;  // Velocidad vertical actual
+    private float myGravity = -10f;  // Gravedad aplicada al jugador
 
-    private Vector3 inputVector;
-    private Vector3 movementVector;
-    private float myGravity = -10f;
+    private CharacterController myCC;  // Referencia al CharacterController
+    public Animator camAnim;  // Referencia al Animator para la cámara
+    private bool isWalking;  // Indica si el jugador está caminando
+    private bool isGrounded;  // Indica si el jugador está tocando el suelo
+
+    private Vector3 inputVector;  // Vector de entrada basado en el movimiento del jugador
+    private Vector3 movementVector;  // Vector de movimiento para aplicar al CharacterController
+
     void Start()
     {
         myCC = GetComponent<CharacterController>();
-        
-
-        
     }
+
     void Update()
     {
+        isGrounded = myCC.isGrounded;
         GetInput();
         MovePlayer();
         
@@ -31,8 +35,15 @@ public class PlayerMove : MonoBehaviour
 
     void GetInput()
     {
-        
-        //Si apretamos wasd (-1, 0, 1) 
+        float currentSpeed = playerSpeed;
+
+        // Comprobar si el jugador está presionando Shift para correr
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            currentSpeed *= 1.5f;  // Aumentar la velocidad para correr
+        }
+
+        // Si se presionan las teclas WASD...
         if (Input.GetKey(KeyCode.W) ||
             Input.GetKey(KeyCode.A) ||
             Input.GetKey(KeyCode.S) ||
@@ -41,22 +52,36 @@ public class PlayerMove : MonoBehaviour
             inputVector = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
             inputVector.Normalize();
             inputVector = transform.TransformDirection(inputVector);
-
             isWalking = true;
-
         }
-        else         //Si no, devuelve lo que inputVector era en el último check y lo lleva hacia cero 
+        else
         {
             inputVector = Vector3.Lerp(inputVector, Vector3.zero, momentumDamping * Time.deltaTime);
-
             isWalking = false;
         }
-        movementVector = (inputVector * playerSpeed) + (Vector3.up * myGravity);
+
+        // Determinar la velocidad vertical basada en si el jugador está en el suelo o en el aire
+        if (isGrounded)
+        {
+            verticalVelocity = -gravityScale;  // Mantener el jugador en el suelo
+
+            // Permitir al jugador saltar
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                verticalVelocity = jumpStrength;
+            }
+        }
+        else
+        {
+            verticalVelocity += myGravity * gravityScale * Time.deltaTime;  // Aplicar gravedad progresiva
+        }
+
+        // Construir el vector de movimiento final
+        movementVector = (inputVector * currentSpeed) + Vector3.up * verticalVelocity;
     }
 
     void MovePlayer()
     {
         myCC.Move(movementVector * Time.deltaTime);
     }
-    
 }

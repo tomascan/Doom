@@ -47,57 +47,63 @@ public class Gun : MonoBehaviour
 
     void Fire()
     {
-        
-        //Simulate the shotgun radio 
-        Collider[] enemyColliders; 
+        // Simulate the shotgun radio
+        Collider[] enemyColliders;
         enemyColliders = Physics.OverlapSphere(transform.position, gunShotRadius, enemyLayerMask);
-        
-        //Alert enemies in earshot 
+
+        // Alert enemies in earshot
         foreach (var enemyCollider in enemyColliders)
         {
-            enemyCollider.GetComponent<EnemyAwareness>().isAggro = true; 
+            var enemyAwareness = enemyCollider.GetComponent<EnemyAwareness>();
+            if (enemyAwareness != null)
+            {
+                enemyAwareness.isAggro = true;
+            }
         }
-        
-        //play audio 
-        GetComponent<AudioSource>().Stop();
-        GetComponent<AudioSource>().Play();
 
-        //damage Enemies
-        foreach (var enemy in enemyManager.enemiesInTrigger)
+        // Play audio
+        var audioSource = GetComponent<AudioSource>();
+        if (audioSource != null)
         {
-            //get direction to enemy 
-            var dir = enemy.transform.position - transform.position; 
-            
+            audioSource.Stop();
+            audioSource.Play();
+        }
+
+        // Damage Enemies
+        List<Enemy> enemiesToDamage = new List<Enemy>(enemyManager.enemiesInTrigger);
+        foreach (var enemy in enemiesToDamage)
+        {
+            // Get direction to enemy
+            var dir = enemy.transform.position - transform.position;
+
             RaycastHit hit;
             if (Physics.Raycast(transform.position, dir, out hit, range * 1.5f, raycastLayerMask))
             {
                 if (hit.transform == enemy.transform)
                 {
-                    //range check
+                    // Range check
                     float dist = Vector3.Distance(enemy.transform.position, transform.position);
 
                     if (dist > range * 0.5f)
                     {
-                        enemy.TakeDamage(smallDamage); //Damage the enemy 
+                        enemy.TakeDamage(smallDamage); // Damage the enemy
                     }
                     else
                     {
-                        enemy.TakeDamage(bigDamage); //Damage the enemy 
+                        enemy.TakeDamage(bigDamage); // Damage the enemy
                     }
-                    //Debug.DrawRay(transform.position, dir, Color.green); //Simula el apuntado del arma 
-                    //Debug.Break(); //Detiene la ejecución 
                 }
             }
         }
-        
-        //Reset Timer 
+
+        // Reset Timer
         nextTimeToFire = Time.time + fireRate;
-        
-        //reduct ammo 
+
+        // Reduce ammo
         ammo--;
         CanvasManager.Instance.UpdateAmmo(ammo);
-
     }
+
 
 
     public void GiveAmmo(int amount, GameObject pickup)
