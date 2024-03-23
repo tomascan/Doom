@@ -20,9 +20,15 @@ public class CanvasManager : MonoBehaviour
     public GameObject redKey;
     public GameObject blueKey;
     public GameObject greenKey;
+    
+    
+    public Image damageEffectImage; // Asegúrate de asignar esto en el Inspector de Unity
+    public float flashSpeed = 5f; // Velocidad a la que desaparecerá el efecto
+    private Color flashColor = new Color(1f, 0f, 0f, 0.3f); // Color y transparencia del destello
 
 
     private static CanvasManager _instance;
+    
 
     public static CanvasManager Instance
     {
@@ -41,6 +47,24 @@ public class CanvasManager : MonoBehaviour
             _instance = this; 
         }
     }
+    
+    
+    private void Update()
+    {
+        // Si el color del efecto de daño no es completamente transparente, ir reduciendo su transparencia
+        if (damageEffectImage.color.a > 0)
+        {
+            damageEffectImage.color = Color.Lerp(damageEffectImage.color, Color.clear, flashSpeed * Time.deltaTime);
+        }
+    }
+
+    // Método para activar el efecto de destello
+    public void TriggerDamageEffect()
+    {
+        damageEffectImage.color = flashColor;
+    }
+    
+    
     
     //Methods to upodate the UI
     public void UpdateHealth(int healthValue)

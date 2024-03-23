@@ -1,0 +1,916 @@
+fileFormatVersion: 2
+guid: 2d3170bb84f44234a9225065b9783eff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lost Soul_56
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 468
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da05362a446c8384aaa94836087865eb
+      internalID: 1449185447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 461
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5a825b374be9f4b9de3315b846cb9b
+      internalID: -1694298645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_59
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 463
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b56bb5d1eb1c447a5f498162552933
+      internalID: 653708761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_60
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 469
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8aa44cc2567844c9649712376f66ae
+      internalID: -2048277514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_62
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 433
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db64571e3f222645882fee1c62246b5
+      internalID: 1794274637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_64
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 382
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e51e54d5617ee4693f11c1ad34eb98
+      internalID: 178796002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_65
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 376
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e7cb318b016f048b015fe7562626e4
+      internalID: -1314136894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_57
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 468
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203bd0d4256f79e4e886bdf1c6f10a37
+      internalID: -516806948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_61
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 433
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780126d329b54cc47802f5c2c495a5f4
+      internalID: 1071191997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_63
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 382
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4071e683104f54d8f3603931a865d7
+      internalID: -1709551068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_66
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 374
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9011987736c3441b6d2dc616463dfe
+      internalID: 785734940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_67
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 375
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5743f96a1fa45488be32b84c159103
+      internalID: -1288742143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_68
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 297
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738f0fe6b43047945b45908073ec0992
+      internalID: -411845498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_69
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 305
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fec7eb0c5d83b54187125c889e8c76b
+      internalID: -390490118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_70
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 308
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756f2915163e3e64fa50b6f7ab0bb78a
+      internalID: 677552371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_71
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 309
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f836308f868485b4c9f04eb4309d6b03
+      internalID: 1463750292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_72
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 315
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18f0c69fc86286429bd7359d3d7949e
+      internalID: 111253863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_73
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 220
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe6618516c5cb74db7f20b5e716caee
+      internalID: 187736208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_74
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 228
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff550d7036abdb40ab525dd87b5947b
+      internalID: 1813172007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_75
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 231
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6b2a5b33b31b740b00a325ebf49ca0
+      internalID: 1175861838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_76
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 232
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037c61012850f3342ac3969d94306ea4
+      internalID: -1309682303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_77
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 238
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc0f2a3467554e44b4bbcf5e8cb8884
+      internalID: -650604149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_78
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 136
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebb8840e65c8cf468de226a96d52b39
+      internalID: 745953476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_79
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 133
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae10778f193179841a9729bf63e0edc5
+      internalID: 1368342088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_80
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 133
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048f24ba126fa684cad2e62627afb15b
+      internalID: 1667133247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_81
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 135
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cc799b7eba3de4ca1655f3550d2358
+      internalID: -228955366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_82
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 139
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc33f8cb05472424bbb0b024c729acdf
+      internalID: 225474676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_83
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 49
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0b2ec03f55b6848af5920e8fd2a1fd
+      internalID: -1105101653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_84
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 47
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1892f3095e68f7a478cbbe4eaac91ccf
+      internalID: -1271697367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_85
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 52
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991fc3f56b589244c82178d101ded62e
+      internalID: 658124559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_86
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 40
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e63d7f3c5397543a19c9bb6b7269b1
+      internalID: 1280607350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lost Soul_87
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 28
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0c2846ff193044c9b8f63a0d174111
+      internalID: -405551655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3c55227225df9104dbd5f6f1636f6638
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Lost Soul_0: -40853
+      Lost Soul_1: 999352356
+      Lost Soul_10: 1072892427
+      Lost Soul_100: 556294455
+      Lost Soul_101: -1225691058
+      Lost Soul_102: 556517745
+      Lost Soul_103: -2054888395
+      Lost Soul_11: -1292636548
+      Lost Soul_12: -1250581897
+      Lost Soul_13: -431644467
+      Lost Soul_14: -53315784
+      Lost Soul_15: -1965878718
+      Lost Soul_16: 1956584897
+      Lost Soul_17: 1990662169
+      Lost Soul_18: -1661479409
+      Lost Soul_19: -2048191443
+      Lost Soul_2: -875008298
+      Lost Soul_20: -511675279
+      Lost Soul_21: -709085184
+      Lost Soul_22: 835673579
+      Lost Soul_23: -245675307
+      Lost Soul_24: -64431514
+      Lost Soul_25: 322995617
+      Lost Soul_26: 1575056159
+      Lost Soul_27: 386649728
+      Lost Soul_28: -750342578
+      Lost Soul_29: -568692620
+      Lost Soul_3: -1260814753
+      Lost Soul_30: -1733404597
+      Lost Soul_31: -546101461
+      Lost Soul_32: 1668584808
+      Lost Soul_33: 1556793663
+      Lost Soul_34: -2142557744
+      Lost Soul_35: 828292232
+      Lost Soul_36: -371647141
+      Lost Soul_37: -1929246635
+      Lost Soul_38: 131016170
+      Lost Soul_39: -1640753476
+      Lost Soul_4: -1629628737
+      Lost Soul_40: -1957792928
+      Lost Soul_41: 1375192448
+      Lost Soul_42: 1363164240
+      Lost Soul_43: 1129731717
+      Lost Soul_44: -34978164
+      Lost Soul_45: 1222423910
+      Lost Soul_46: -109143912
+      Lost Soul_47: 1330496349
+      Lost Soul_48: 1605386982
+      Lost Soul_49: 1249857383
+      Lost Soul_5: 2035951242
+      Lost Soul_50: -687879862
+      Lost Soul_51: -930366215
+      Lost Soul_52: 1104333521
+      Lost Soul_53: 1853537472
+      Lost Soul_54: -13623176
+      Lost Soul_55: 474088199
+      Lost Soul_56: 1449185447
+      Lost Soul_57: -516806948
+      Lost Soul_58: -1694298645
+      Lost Soul_59: 653708761
+      Lost Soul_6: -878144270
+      Lost Soul_60: -2048277514
+      Lost Soul_61: 1071191997
+      Lost Soul_62: 1794274637
+      Lost Soul_63: -1709551068
+      Lost Soul_64: 178796002
+      Lost Soul_65: -1314136894
+      Lost Soul_66: 785734940
+      Lost Soul_67: -1288742143
+      Lost Soul_68: -411845498
+      Lost Soul_69: -390490118
+      Lost Soul_7: 1363097050
+      Lost Soul_70: 677552371
+      Lost Soul_71: 1463750292
+      Lost Soul_72: 111253863
+      Lost Soul_73: 187736208
+      Lost Soul_74: 1813172007
+      Lost Soul_75: 1175861838
+      Lost Soul_76: -1309682303
+      Lost Soul_77: -650604149
+      Lost Soul_78: 745953476
+      Lost Soul_79: 1368342088
+      Lost Soul_8: -577537761
+      Lost Soul_80: 1667133247
+      Lost Soul_81: -228955366
+      Lost Soul_82: 225474676
+      Lost Soul_83: -1105101653
+      Lost Soul_84: -1271697367
+      Lost Soul_85: 658124559
+      Lost Soul_86: 1280607350
+      Lost Soul_87: -405551655
+      Lost Soul_88: 430141944
+      Lost Soul_89: 1489378618
+      Lost Soul_9: 551049256
+      Lost Soul_90: -1349593802
+      Lost Soul_91: 1097939197
+      Lost Soul_92: -2137990561
+      Lost Soul_93: 926414302
+      Lost Soul_94: -1969369793
+      Lost Soul_95: -1841082381
+      Lost Soul_96: 711753815
+      Lost Soul_97: 2121235581
+      Lost Soul_98: 1707351101
+      Lost Soul_99: 1753196084
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -118,6 +118,10 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:RealtimeCSG
+-define:RealtimeCSG_1
+-define:RealtimeCSG_1_5
+-define:RealtimeCSG_1_5_62
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"D:/Program Files/2022.3.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -364,17 +368,20 @@
 "Assets/Scripts/Enemy/AngleToPlayer.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/EnemyAI.cs"
+"Assets/Scripts/Enemy/EnemyAtack.cs"
 "Assets/Scripts/Enemy/EnemyAwareness.cs"
+"Assets/Scripts/Enemy/EnemyShooting.cs"
 "Assets/Scripts/Enemy/EnemySpriteLook.cs"
 "Assets/Scripts/Enemy/RatAI.cs"
 "Assets/Scripts/Enemy/SpriteRotator.cs"
 "Assets/Scripts/Managers/CanvasManager.cs"
 "Assets/Scripts/Managers/EnemyManager.cs"
-"Assets/Scripts/MenuInicial.cs"
 "Assets/Scripts/Misc/DamageTrigger.cs"
 "Assets/Scripts/Misc/Door.cs"
+"Assets/Scripts/Misc/MenuInicial.cs"
 "Assets/Scripts/Pickups/ItemPickup.cs"
 "Assets/Scripts/Pickups/KeyPickup.cs"
+"Assets/Scripts/Player/Bullet.cs"
 "Assets/Scripts/Player/Gun.cs"
 "Assets/Scripts/Player/MouseLook.cs"
 "Assets/Scripts/Player/PlayerHealth.cs"

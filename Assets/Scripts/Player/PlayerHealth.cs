@@ -36,17 +36,20 @@ public class PlayerHealth : MonoBehaviour
             if (armor >= damage)
             {
                 armor -= damage; 
+                CanvasManager.Instance.TriggerDamageEffect();
             }
             else if (armor < damage)
             {
                 int remainingDamage = damage - armor;
                 armor = 0;
                 health -= remainingDamage;
+                CanvasManager.Instance.TriggerDamageEffect();
             }
         }
         else
         {
             health -= damage; 
+            CanvasManager.Instance.TriggerDamageEffect();
         }
 
         if (health <= 0)

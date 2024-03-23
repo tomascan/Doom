@@ -6,9 +6,9 @@ using UnityEngine;
 public class Gun : MonoBehaviour
 {
 
-    public float range = 20f;
-    public float verticalRange = 20f;
-    public float gunShotRadius = 20f; 
+    public float range = 10f;
+    public float verticalRange = 5f;
+    public float gunShotRadius = 5f; 
     
 
     public float smallDamage = 1f;
