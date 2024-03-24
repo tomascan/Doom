@@ -39,18 +39,9 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
-        // Verifica si el barril tiene el script Barrel y llama a Explode si es así
-        Barrel barrelComponent = GetComponent<Barrel>();
-        if (barrelComponent != null)
-        {
-            barrelComponent.Explode(); // Asegúrate de que esta función existe en el script Barrel
-        }
-        else
-        {
             DropItem();
             enemyManager.RemoveEnemy(this);
             Destroy(gameObject);
-        }
     }
     private void DropItem()
     {

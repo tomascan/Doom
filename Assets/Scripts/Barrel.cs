@@ -2,63 +2,65 @@ using UnityEngine;
 
 public class Barrel : MonoBehaviour
 {
-    public GameObject explosionEffect;
-    public float explosionRadius = 5f;
-    public int damage = 50;
-    public float enemyHealth = 2f;
-    public GameObject itemToDrop;
-    public GameObject gunHitEffect;
+    public float health = 1f; // Salud del barril
+    public GameObject explosionEffect; // Efecto visual de la explosión
+    public float explosionRadius = 5f; // Radio de la explosión
+    public float explosionForce = 700f; // Fuerza de la explosión
+    public LayerMask damageLayer; // Capas que serán afectadas por la explosión
+    public float explosionDamage = 25f; // Daño que inflige la explosión
 
-    void Update()
+    public void TakeDamage(float amount)
     {
-        if (enemyHealth <= 0)
+        health -= amount;
+        if (health <= 0)
         {
             Explode();
         }
     }
 
-    public void TakeDamage(float damage)
+    private void Explode()
     {
-        Instantiate(gunHitEffect, transform.position, Quaternion.identity);
-        enemyHealth -= damage;
-        if (enemyHealth <= 0)
-        {
-            Explode();
-        }
-    }
-
-    public void Explode()
-    {
+        // Instancia el efecto de la explosión
         Instantiate(explosionEffect, transform.position, Quaternion.identity);
-        ApplyDamageToNearbyObjects();
-        DropItem();
-        Destroy(this);
-    }
 
-    private void ApplyDamageToNearbyObjects()
-    {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
-        foreach (Collider hitCollider in colliders)
+        // Detecta objetos dentro del radio de la explosión y aplica daño/empuje
+        Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius, damageLayer);
+        foreach (var hitCollider in colliders)
         {
+            // Aplica fuerza a los Rigidbodies
+            Rigidbody rb = hitCollider.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.AddExplosionForce(explosionForce, transform.position, explosionRadius);
+            }
+
+            // Aplica daño a los jugadores, otros barriles o enemigos
             if (hitCollider.CompareTag("Player"))
             {
+                // Asume que el jugador tiene un script para manejar su salud llamado PlayerHealth
                 PlayerHealth playerHealth = hitCollider.GetComponent<PlayerHealth>();
                 if (playerHealth != null)
                 {
-                    playerHealth.DamagePlayer(damage);
+                    playerHealth.DamagePlayer((int)(explosionDamage));
                 }
             }
-
-            // Aquí podrías añadir daño a otros enemigos si lo necesitas
-            // Similar al daño al jugador, pero asegúrate de que cada enemigo tiene su propio componente de salud
+            else
+            {
+                // Intenta aplicar daño a otros barriles o enemigos
+                var damageable = hitCollider.GetComponent<IDamageable>();
+                if (damageable != null)
+                {
+                    damageable.TakeDamage(explosionDamage);
+                }
+            }
         }
-    }
 
-    private void DropItem()
-    {
-        if (itemToDrop != null)
-        {
-            Instantiate(itemToDrop, transform.position, Quaternion.identity);
-        }
+        // Destruye este barril
+        Destroy(gameObject);
     }
+}
+
+public interface IDamageable
+{
+    void TakeDamage(float amount);
 }
