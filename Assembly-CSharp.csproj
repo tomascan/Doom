@@ -45,10 +45,12 @@
     <Analyzer Include="D:\Program Files\2022.3.18f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Barrel.cs" />
     <Compile Include="Assets\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\EnemySpriteLook.cs" />
     <Compile Include="Assets\Scripts\Enemy\AngleToPlayer.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Bullet.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAtack.cs" />
@@ -56,13 +58,12 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyShooting.cs" />
     <Compile Include="Assets\Scripts\Enemy\RatAI.cs" />
-    <Compile Include="Assets\Scripts\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\KeyPickup.cs" />
     <Compile Include="Assets\Scripts\Managers\CanvasManager.cs" />
     <Compile Include="Assets\Scripts\Managers\EnemyManager.cs" />
     <Compile Include="Assets\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\MenuInicial.cs" />
-    <Compile Include="Assets\Scripts\Player\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Pickups\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\Player\Gun.cs" />
     <Compile Include="Assets\Scripts\Player\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />

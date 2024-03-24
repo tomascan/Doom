@@ -26,6 +26,7 @@ public class CanvasManager : MonoBehaviour
     public float flashSpeed = 5f; // Velocidad a la que desaparecerá el efecto
     private Color flashColor = new Color(1f, 0f, 0f, 0.3f); // Color y transparencia del destello
 
+    public Image powerUpEffectImage; 
 
     private static CanvasManager _instance;
     
@@ -51,7 +52,6 @@ public class CanvasManager : MonoBehaviour
     
     private void Update()
     {
-        // Si el color del efecto de daño no es completamente transparente, ir reduciendo su transparencia
         if (damageEffectImage.color.a > 0)
         {
             damageEffectImage.color = Color.Lerp(damageEffectImage.color, Color.clear, flashSpeed * Time.deltaTime);
@@ -63,6 +63,30 @@ public class CanvasManager : MonoBehaviour
     {
         damageEffectImage.color = flashColor;
     }
+    
+    // Método para activar efecto PowerUp
+    public void ActivatePowerUpEffect(float duration)
+    {
+        StartCoroutine(PowerUpEffectCoroutine(duration));
+    }
+
+    private IEnumerator PowerUpEffectCoroutine(float duration)
+    {
+        float startTime = Time.time;
+        // Mientras la duración no se haya completado
+        while (Time.time - startTime < duration)
+        {
+            // Alternar la visibilidad del efecto de power-up
+            powerUpEffectImage.gameObject.SetActive(!powerUpEffectImage.gameObject.activeSelf);
+
+            // Esperar un breve momento antes de alternar de nuevo
+            yield return new WaitForSeconds(0.75f); // Ajusta este valor para controlar la velocidad del parpadeo
+        }
+
+        // Asegurar que el efecto se desactiva al finalizar el power-up
+        powerUpEffectImage.gameObject.SetActive(false);
+    }
+
     
     
     
@@ -83,19 +107,19 @@ public class CanvasManager : MonoBehaviour
     
     public void UpdateHealthIndicator(int healthValue)
     {
-        if (healthValue >= 66)
+        if (healthValue >= 70)
         {
             healthIndicator.sprite = health1; //Healthy Face
         }
-        if (healthValue < 66 && healthValue >= 33)
+        if (healthValue < 70 && healthValue >= 40)
         {
             healthIndicator.sprite = health2; //Punched Face
         }
-        if (healthValue < 33 && healthValue >= 0)
+        if (healthValue < 40 && healthValue >= 10)
         {
             healthIndicator.sprite = health3; //Bloody Face
         }
-        if (healthValue <= 0)
+        if (healthValue <= 10)
         {
             healthIndicator.sprite = health4; //Dead Face
         }

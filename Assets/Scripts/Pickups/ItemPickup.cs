@@ -6,24 +6,17 @@ public class ItemPickup : MonoBehaviour
 {
 
 
-    public bool isHealth;
+    public bool isHealth; //Health Flag
 
-    public bool isArmor;
+    public bool isArmor; //Armor Flag
 
-    public bool isAmmo;
+    public bool isAmmo; //Ammo Flag
+    
+    public bool isPowerUp; // Flag para el power-up general
+    public float powerUpDuration = 10f; // Duración del power-up
+
 
     public int amount; 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -40,6 +33,20 @@ public class ItemPickup : MonoBehaviour
             if (isAmmo)
             {
                 other.GetComponentInChildren<Gun>().GiveAmmo(amount, this.gameObject);
+            }
+            if (isPowerUp) // Si es el power-up general
+            {
+                // Activar el power-up de velocidad
+                other.GetComponent<PlayerMove>().ActivateSpeedBoost(2f, powerUpDuration);
+
+                // Activar el power-up de daño y alcance
+                other.GetComponentInChildren<Gun>().ActivateWeaponBoost(3f, powerUpDuration);
+
+                // Activar el efecto visual en el HUD
+                CanvasManager.Instance.ActivatePowerUpEffect(powerUpDuration);
+
+                // Destruir el objeto power-up después de la recogida
+                Destroy(gameObject);
             }
         }
     }

@@ -80,6 +80,23 @@ public class PlayerMove : MonoBehaviour
         movementVector = (inputVector * currentSpeed) + Vector3.up * verticalVelocity;
     }
 
+    //Power Up Speed
+    public void ActivateSpeedBoost(float multiplier, float duration)
+    {
+        StartCoroutine(SpeedBoostCoroutine(multiplier, duration));
+    }
+
+    private IEnumerator SpeedBoostCoroutine(float multiplier, float duration)
+    {
+        playerSpeed *= multiplier;
+
+        yield return new WaitForSeconds(duration);
+
+        playerSpeed /= multiplier;
+    }
+
+    
+    
     void MovePlayer()
     {
         myCC.Move(movementVector * Time.deltaTime);

@@ -144,4 +144,24 @@ public class Gun : MonoBehaviour
             enemyManager.RemoveEnemy(enemy);
         }
     }
+    
+    // PowerUp en Damage 
+    public void ActivateWeaponBoost(float multiplier, float duration)
+    {
+        StartCoroutine(WeaponBoostCoroutine(multiplier, duration));
+    }
+
+    private IEnumerator WeaponBoostCoroutine(float multiplier, float duration)
+    {
+        range *= multiplier;
+        smallDamage *= multiplier;
+        bigDamage *= multiplier;
+
+        yield return new WaitForSeconds(duration);
+
+        range /= multiplier;
+        smallDamage /= multiplier;
+        bigDamage /= multiplier;
+    }
+
 }
