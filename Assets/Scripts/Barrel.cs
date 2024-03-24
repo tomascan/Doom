@@ -5,7 +5,6 @@ public class Barrel : MonoBehaviour
     public float health = 1f; // Salud del barril
     public GameObject explosionEffect; // Efecto visual de la explosión
     public float explosionRadius = 5f; // Radio de la explosión
-    public float explosionForce = 700f; // Fuerza de la explosión
     public LayerMask damageLayer; // Capas que serán afectadas por la explosión
     public float explosionDamage = 25f; // Daño que inflige la explosión
 
@@ -27,13 +26,6 @@ public class Barrel : MonoBehaviour
         Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius, damageLayer);
         foreach (var hitCollider in colliders)
         {
-            // Aplica fuerza a los Rigidbodies
-            Rigidbody rb = hitCollider.GetComponent<Rigidbody>();
-            if (rb != null)
-            {
-                rb.AddExplosionForce(explosionForce, transform.position, explosionRadius);
-            }
-
             // Aplica daño a los jugadores, otros barriles o enemigos
             if (hitCollider.CompareTag("Player"))
             {
@@ -41,7 +33,7 @@ public class Barrel : MonoBehaviour
                 PlayerHealth playerHealth = hitCollider.GetComponent<PlayerHealth>();
                 if (playerHealth != null)
                 {
-                    playerHealth.DamagePlayer((int)(explosionDamage));
+                    playerHealth.TakeDamage((int)(explosionDamage));
                 }
             }
             else

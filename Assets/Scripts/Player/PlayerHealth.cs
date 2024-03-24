@@ -23,13 +23,13 @@ public class PlayerHealth : MonoBehaviour
         //temporary test function 
         if (Input.GetKeyDown(KeyCode.RightShift))
         {
-            DamagePlayer(30);
+            TakeDamage(30);
             Debug.Log("Player has been damaged");
         }
     }
 
 
-    public void DamagePlayer(int damage)
+    public void TakeDamage(int damage)
     {
         if (armor > 0)
         {

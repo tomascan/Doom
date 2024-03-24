@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 254328867048783741}
   - component: {fileID: 5423690804562671297}
   - component: {fileID: 4489175917645118229}
+  - component: {fileID: 4586856818060210157}
   m_Layer: 7
   m_Name: LastSoul
   m_TagString: Untagged
@@ -295,3 +296,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lastIndex: 0
+--- !u!114 &4586856818060210157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5954379602080926341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7c3f1f52988f64a817ad0c9c75d65d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3901379784180169789, guid: bd98ef37729150940aa813f42eb80cc8, type: 3}
+  firePoint: {fileID: 7178348704957796953}
+  fireRate: 1
+  shootingRange: 15
+  target: {fileID: 0}

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IDamageable
 {
     private EnemyManager enemyManager;
     private Animator spriteAnim;
@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    // La implementación de la interfaz IDamageable
     public void TakeDamage(float damage)
     {
         Instantiate(gunHitEffect, transform.position, Quaternion.identity);
@@ -39,10 +40,14 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
-            DropItem();
+        DropItem();
+        if (enemyManager != null)
+        {
             enemyManager.RemoveEnemy(this);
-            Destroy(gameObject);
+        }
+        Destroy(gameObject);
     }
+
     private void DropItem()
     {
         if (itemToDrop != null)

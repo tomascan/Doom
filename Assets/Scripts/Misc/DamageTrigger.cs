@@ -23,7 +23,7 @@ public class DamageTrigger : MonoBehaviour
             if (damageCount >= timeBetweenDamage)
             {
                 // damage count over, damage the player
-                playerHealth.DamagePlayer(damageAmount);
+                playerHealth.TakeDamage(damageAmount);
                 damageCount = 0f;
             }
 

@@ -1,28 +1,24 @@
 using UnityEngine;
-
 public class Bullet : MonoBehaviour
 {
-    public float speed = 20f;
-    public int damage = 10;
-    public float lifetime = 5f;
+    public float damage = 10f; // Cantidad de daño que la bala aplica
 
-    void Start()
+    private void OnCollisionEnter(Collision collision)
     {
-        Destroy(gameObject, lifetime); // Destruye la bala después de un tiempo para no sobrecargar la escena
-    }
-
-    void Update()
-    {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
-    }
-
-    void OnTriggerEnter(Collider other) // Asegúrate de que 'Collider' aquí esté reconocido correctamente por Unity
-    {
-        if (other.CompareTag("Player"))
+        // Verificar si lo que golpeamos es el jugador
+        if (collision.gameObject.CompareTag("Player"))
         {
-            // Asume que tienes un componente PlayerHealth en tu jugador
-            other.GetComponent<PlayerHealth>().DamagePlayer(damage);
+            // Intentar obtener el script de salud del jugador
+            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
+
+            // Si encontramos el script, aplicamos daño
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage((int)damage);
+            }
+
+            // Destruye la bala tras el impacto
+            Destroy(gameObject);
         }
-        Destroy(gameObject); // Destruye la bala al colisionar
     }
 }

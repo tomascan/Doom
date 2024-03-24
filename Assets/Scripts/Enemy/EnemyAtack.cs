@@ -38,7 +38,7 @@ public class EnemyAttack : MonoBehaviour
             PlayerHealth playerHealth = playerTransform.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
-                playerHealth.DamagePlayer(attackDamage);
+                playerHealth.TakeDamage(attackDamage);
             }
             lastAttackTime = Time.time;
         }
